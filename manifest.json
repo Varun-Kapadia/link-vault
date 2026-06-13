@@ -1,0 +1,20 @@
+{
+  "name": "Link Saver",
+  "short_name": "LinkSaver",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285f4",
+  "icons": [
+    { "src": "icon.png", "sizes": "192x192", "type": "image/png" }
+  ],
+  "share_target": {
+    "action": "/share-handler",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
